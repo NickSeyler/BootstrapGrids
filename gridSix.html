@@ -61,8 +61,32 @@
     </nav>
 
     <main class="flex-shrink-0">
-        <div class="container">
-            <h1 class="mt-5">Grid 6</h1>
+        <div class="container mt-1 h-100 minHeight">
+
+            <div class="row h-100 gy-3">
+                <div class="col-12">
+                    <div class="bg-secondary text-light h-100">
+                        Column One
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 order-last">
+                    <div class="bg-dark text-light h-100">
+                        Column Two
+                        <br />
+                        This column is in position three on smaller resolutions.
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 order-md-last">
+                    <div class="bg-info h-100">
+                        Column Three
+                        <br/>
+                        This column is in position two on smaller resolutions.
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </main>
 

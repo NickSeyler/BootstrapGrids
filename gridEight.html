@@ -61,8 +61,40 @@
     </nav>
 
     <main class="flex-shrink-0">
-        <div class="container">
-            <h1 class="mt-5">Grid 8</h1>
+        <div class="container-fluid mt-1 h-100 minHeight">
+
+            <div class="row h-100 gy-3">
+                <div class="col-12">
+                    <div class="bg-secondary text-light h-100">
+                        Column One
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 order-2 order-md-1">
+                    <div class="bg-dark text-light h-100">
+                        Column Two
+                        <br />
+                        This column is in position three on smaller resolutions.
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 order-3 order-md-2">
+                    <div class="bg-info h-100">
+                        Column Three
+                        <br/>
+                        This column is in position four on smaller resolutions.
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 order-1 order-md-3">
+                    <div class="bg-success h-100">
+                        Column Four
+                        <br />
+                        This column is in position two on smaller resolutions.
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </main>
 
